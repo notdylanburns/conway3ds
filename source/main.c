@@ -8,16 +8,6 @@
 #include <3ds.h>
 #include <citro2d.h>
 
-void getTitle(Grid *grid);
-void draw(Grid *grid, C3D_RenderTarget *screen, u32 bgColour, u32 fgColour);
-void updateGrid(Grid *grid);
-void drawMenu(C3D_RenderTarget *screen, char selection, u32 bgColour, u32 fgColour);
-void beginFrame();
-void endFrame();
-void clrScreen(C3D_RenderTarget *screen, u32 colour);
-void mainMenuInit();
-void mainMenuDeInit();
-
 //Create text objects for menu
 C2D_TextBuf menuBuffer;
 C2D_Text menuText[3];
