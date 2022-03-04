@@ -3,7 +3,6 @@
 #include <math.h>
 
 #include "main.h"
-#include "grid.h"
 
 #include <3ds.h>
 #include <citro2d.h>

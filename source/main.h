@@ -1,6 +1,8 @@
 #ifndef MAIN_H_GUARD
 #define MAIN_H_GUARD
 
+#include "grid.h"
+
 #define TOP_SCREEN_WIDTH 400
 #define TOP_SCREEN_HEIGHT 240
 #define BOTTOM_SCREEN_WIDTH 320
